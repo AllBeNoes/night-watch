@@ -1,7 +1,7 @@
 {
   "name": "night-watch",
   "version": "1.0.0",
-  "description": "",
+  "description": "```\r npm install nightwatch -g \r npm install\r npm test\r ```",
   "main": "index.js",
   "scripts": {
     "test": "nightwatch"
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/AllBeNoes/night-watch#readme",
   "devDependencies": {
     "chromedriver": "^2.46.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {}
 }
